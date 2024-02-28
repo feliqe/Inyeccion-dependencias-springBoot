@@ -1,0 +1,11 @@
+- INYECCION DE DEPENDENCIAS
+- manipular la informacion extraeida de una base de datos
+- mostrar toda la inforacion de la tabla
+- buscar por id
+- manipular la infrmacion de un Json
+-----------------------------------------------------------------------------------------------------
+
+- @Qualifier: para llamar la implemtenacion a ejecutar primero
+- @RequestScope: se actualiza pero solo por request opr la ejecucion sin usar memoria
+- @SessionScope: se actuliza por session la informacion
+- ProductRepositoryJson.java: clase de lectura para la data de JSON de forma declarativa y programatica
